@@ -1,0 +1,79 @@
+Линейный алгоритм
+  1
+print("Введите три целых числа:")
+a,b,c = map(int,input().split())
+print(a,"+",b,"+",c,"=",a+b+c)
+print(a,"*",b,"*",c,"=",a*b*c)
+print("(",a,"+",b,"+",c,")","/","3","=",(a+b+c)/3)
+  2
+print("Введите координаты точки А:")
+  x1,y1=map(float,input().split())
+print("Введите координаты точки B:")
+  x2,y2=map(float,input().split())
+  from math import*
+  a=sqrt((x2-x1)**2+(y2-y1)**2)
+print("Длина отрезка АВ=",a)
+  3
+import random
+  n =(random.randint(100,1000))
+print("Получено число",n)
+  c=n//100
+  d=n%100//10
+  e=n%10
+print("Его цифры",c,",",d,",",e)
+
+  ПР № 43
+  1
+print("Введите три числа:")
+  a, b, c=map(int, input(). split())
+  if a==b==c:
+print("Всё числа одинаковые.")
+ elif a==b and a!=c:
+print("два числа одинаковые")
+ elif a==c and a!=b:
+print("два числа одинаковые")
+ elif b==a and b!=c:
+print("два числа одинаковые")
+ elif b==c and b!=a:
+print("два числа одинаковые")
+ elif c==a and c!=b:
+print("два числа одинаковые")
+ elif c==b and c!=a:
+print("два числа одинаковые")
+  else:
+print("нет одинаковых чисел")
+  2
+print("Введите номер месяца:")
+  a=int(input())
+  if a==0 or a>12:
+print("Неверный номер месяца")
+  elif a==1 or a==2 or a==12:
+print("Зима")
+  elif a==3 or a==4 or a==5:
+print("Весна")
+  elif a==6 or a==7 or a==8:
+print("Лето")
+  elif a==9 or a==10 or a==11:
+print("Осень")
+
+  №48, 1
+def sum(a):
+  s=0
+  while a!=0:
+  s+=a%10
+  a=a//10
+return s
+n=int(input("Введите натуральное число: "))
+print("Сумма цифр числа",n,"равна",sum(n))
+  2
+a,b=map(int,input("Введите два натуральных числа: ").split())
+def k(n,m):
+  while n!=m:
+  if m>n:
+  c=m-n
+else:
+  c=n-m
+  n=m
+  m=c
+return c
+print("НОД(",a,",",b,")","=",k(a,b))
