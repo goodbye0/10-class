@@ -1,0 +1,37 @@
+'''
+9.42
+sl=input("Введите слово")
+print(sl[::-1])
+'''
+'''
+9.44
+sl = input("введите слово")
+k = sl[::-1]
+print(k)
+'''
+'''
+9.46
+k=("_")
+print(k*8)
+'''
+'''
+9.48
+sl=input("введите слово")
+print("+"*4,sl,5*"_")
+'''
+9.52
+k = input("введите предложение").split()
+c = input("")
+for i in range(len(k)):
+    if c in k[i]:
+        print(k[i])
+'''
+9.68
+l=input()
+sumvol="+-"
+s=0
+for i in l:
+    if i in sumvol:
+        s+=1
+print(s)
+'''
