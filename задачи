@@ -10,6 +10,10 @@ k = sl[::-1]
 print(k)
 '''
 '''
+9.47
+gg = int(input ('Введите число'))
+sim = input('Введите символ')
+print (sim * gg)
 9.46
 k=("_")
 print(k*8)
