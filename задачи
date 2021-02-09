@@ -5,15 +5,22 @@ print(sl[::-1])
 '''
 '''
 9.44
-sl = input("введите слово")
-k = sl[::-1]
-print(k)
+s = input ('Введите слово')
+t = s[::-1]
+print (t)
+'''
+'''
+9.45
+k = "*"
+print (k*5)
 '''
 '''
 9.47
 gg = int(input ('Введите число'))
 sim = input('Введите символ')
 print (sim * gg)
+'''
+'''
 9.46
 k=("_")
 print(k*8)
@@ -30,6 +37,17 @@ for i in range(len(k)):
     if c in k[i]:
         print(k[i])
 '''
+'''
+9.59
+k = input ('Введите слово')
+gl = "о"
+k= 0
+for i in k:
+    if i in gl:
+        s+=1
+print ('kolichestvo ', s)
+'''
+'''
 9.68
 l=input()
 sumvol="+-"
@@ -38,4 +56,5 @@ for i in l:
     if i in sumvol:
         s+=1
 print(s)
+'''
 '''
