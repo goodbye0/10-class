@@ -7,14 +7,14 @@ print (a[0])
 64(Б)
 '''
 def rash(a,b):
-   e=a.rfind(".") 
+   s=a.rfind(".") 
        if e!=-1:
-          a=a[:e+1]+b
+          a=a[:s+1]+b
        else:
           a=a+"."+b
-s=input()
+k=input()
 w=input()
-print(rash(s,w))
+print(rash(k,w))
 '''
 65(А)
 '''
