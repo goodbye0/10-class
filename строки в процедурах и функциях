@@ -1,8 +1,11 @@
-64
+64(а)
+'''
 a = input("введите слово")
 a = a.split()
 print (a[0])
-65
+'''
+64(Б)
+'''
 def rash(a,b):
    e=a.rfind(".") 
        If e!=-1:
@@ -12,3 +15,19 @@ def rash(a,b):
 s=input()
 w=input()
 print(rash(s,w))
+'''
+65
+'''
+def tumba (A,w,L):
+    if len(w)==L:
+        print(w)
+        return
+    if len(w)==1:
+        w+="Ы"
+        tumba(A,w,L)
+    else:
+        for c in A:
+            tumba(A,w+c,L)
+tumba("ЫШЧО","",4)
+'''
+
