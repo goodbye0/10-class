@@ -1,4 +1,4 @@
-64(а)
+64(А)
 '''
 a = input("введите слово")
 a = a.split()
@@ -16,7 +16,7 @@ s=input()
 w=input()
 print(rash(s,w))
 '''
-65
+65(А)
 '''
 def tumba (A,w,L):
     if len(w)==L:
