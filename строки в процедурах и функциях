@@ -2,3 +2,13 @@
 a = input("введите слово")
 a = a.split()
 print (a[0])
+65
+def rash(a,b):
+   e=a.rfind(".") 
+       If e!=-1:
+          a=a[:e+1]+b
+       else:
+          a=a+"."+b
+s=input()
+w=input()
+print(rash(s,w))
