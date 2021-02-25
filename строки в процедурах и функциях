@@ -35,9 +35,8 @@ tumba("ЫШЧО","",4)
 def tumba (a,w,L):
     if len (w) == L:
         if w.count ("ЫЫ") == 1 or w.count("ОО") == 1 or w.count("ШШ")==1 or w.count("ЧЧ")==1:
-            print (w, end=" ")
+            print (w)
         return
-    
     for c in a:
         tumba (a, w+c, L)
 tumba ("ЫШЧО", "", 3)
