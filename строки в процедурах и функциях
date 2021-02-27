@@ -17,7 +17,7 @@ w=input()
 print(rash(k,w))
 '''
 65(А)
-
+'''
 def tumba (A,w,L):
     if len(w)==L:
         print(w)
