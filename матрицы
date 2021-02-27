@@ -17,7 +17,7 @@ for i in range(n):
     for j in range(m):
         if a[i][j]> max_item:
            max_item = a[i][j]
-    elif a[i][j]<min_item:
+        elif a[i][j]<min_item:
           min_item = a[i][j]
 print(max_item)
 print(min_item)
