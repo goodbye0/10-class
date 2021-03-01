@@ -1,4 +1,79 @@
-67(А)
+from random import *
+
+m,n=4,4
+a= [[randint(0,255) for k in range(m)] for p in range(n)]
+for p in range(n):            
+    for k in range(m):
+        print("{:4d}".format(a[p][k]), end = " ")
+    print()
+    
+summ=0
+for p in range(n):
+    for k in range(m):
+        summ += a[p][k]
+        sred_yark= summ/(m*n)      
+print("Средняя яркость",sred_yark)
+print("Результат:")
+for p in range(n):
+    for j in range(m):
+        if a[p][k]<sred_yark:
+            a[p][k]=0
+        else:
+            a[p][k]=255
+for p in range(n):
+    for k in range(m):
+        print("{:4d}".format(a[p][k]), end = " ")
+    print()from random import *
+
+m,n=4,4
+a= [[randint(0,255) for k in range(m)] for p in range(n)]
+for p in range(n):            
+    for k in range(m):
+        print("{:4d}".format(a[p][k]), end = " ")
+    print()
+    
+summ=0
+for p in range(n):
+    for k in range(m):
+        summ += a[p][k]
+        sred_yark= summ/(m*n)      
+print("Средняя яркость",sred_yark)
+print("Результат:")
+for p in range(n):
+    for j in range(m):
+        if a[p][k]<sred_yark:
+            a[p][k]=0
+        else:
+            a[p][k]=255
+for p in range(n):
+    for k in range(m):
+        print("{:4d}".format(a[p][k]), end = " ")
+    print()from random import *
+
+m,n=4,4
+a= [[randint(0,255) for k in range(m)] for p in range(n)]
+for p in range(n):            
+    for k in range(m):
+        print("{:4d}".format(a[p][k]), end = " ")
+    print()
+    
+summ=0
+for p in range(n):
+    for k in range(m):
+        summ += a[p][k]
+        sred_yark= summ/(m*n)      
+print("Средняя яркость",sred_yark)
+print("Результат:")
+for p in range(n):
+    for j in range(m):
+        if a[p][k]<sred_yark:
+            a[p][k]=0
+        else:
+            a[p][k]=255
+for p in range(n):
+    for k in range(m):
+        print("{:4d}".format(a[p][k]), end = " ")
+    print()67(А)
 from random import *
 
 n = int(input("введите количество строк в списке: "))
@@ -21,3 +96,32 @@ for i in range(n):
           min_item = a[i][j]
 print(max_item)
 print(min_item)
+67(Б)
+from random import *
+
+m,n=4,4
+
+a= [[randint(0,255) for k in range(m)] for p in range(n)]
+for p in range(n):            
+    for k in range(m):
+        print("{:4d}".format(a[p][k]), end = " ")
+    print()
+    
+summ=0
+for p in range(n):
+    for k in range(m):
+        summ += a[p][k]
+        sred_yark= summ/(m*n)      
+print("Средняя яркость",sred_yark)
+print("Результат:")
+
+for p in range(n):
+    for j in range(m):
+        if a[p][k]<sred_yark:
+            a[p][k]=0
+        else:
+            a[p][k]=255
+for p in range(n):
+    for k in range(m):
+        print("{:4d}".format(a[p][k]), end = " ")
+    print()
