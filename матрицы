@@ -23,6 +23,7 @@ print(max_item)
 print(min_item)
 
 67(Б)
+
 from random import *
 
 m,n=4,4
@@ -32,15 +33,15 @@ for p in range(n):
         print("{:4d}".format(a[p][k]), end = " ")
     print()
     
-summ=0
+sum=0
 for p in range(n):
     for k in range(m):
-        summ += a[p][k]
-        sred_yark= summ/(m*n)      
+        sum += a[p][k]
+        sred_yark= sum/(m*n)      
 print("Средняя яркость",sred_yark)
 print("Результат:")
 for p in range(n):
-    for j in range(m):
+    for k in range(m):
         if a[p][k]<sred_yark:
             a[p][k]=0
         else:
