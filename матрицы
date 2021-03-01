@@ -1,4 +1,4 @@
-65(Б)
+67(Б)
 from random import *
 
 m,n=4,4
